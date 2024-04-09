@@ -1,0 +1,88 @@
+#head {
+  background-color: aqua;
+  width: 100vw;
+  height: 56px;
+  padding: 0px 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  box-sizing: border-box;
+}
+
+#menu {
+  padding: 8px;
+}
+
+#logo {
+  height: 20px;
+  width: 90px;
+  padding: 18px 14px 18px 16px;
+}
+
+#header-left {
+  display: flex;
+  align-items: center;
+}
+
+#header-right {
+  display: flex;
+  align-items: center;
+}
+
+#header-center {
+  display: flex;
+  align-items: center;
+}
+
+#img {
+  border-radius: 1000px;
+  padding: 10px;
+}
+
+#bell {
+  padding: 10px;
+}
+
+#search {
+  border: 1px solid;
+  border-radius: 40px 0 0 40px;
+  margin: 0 0 0 32px;
+  padding: 0 4px 0 16px;
+  border-right: none;
+  color: white;
+  background: #121212;
+  box-shadow: inset 0 1px 2px;
+  align-items: center;
+}
+
+#input {
+  border: none;
+  width: 300px;
+  outline: none;
+  height: 40px;
+  box-sizing: border-box;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  font-family: Roboto, Noto, sans-serif;
+}
+
+#search-btn {
+  border: 1px solid;
+  border-radius: 0 40px 40px 0;
+  cursor: pointer;
+  height: 40px;
+  width: 64px;
+  background-color: black;
+  color: #000000;
+  padding: 1px 6px;
+}
+
+#search-img {
+  fill: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+}
